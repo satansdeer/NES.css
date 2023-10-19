@@ -134,9 +134,6 @@
       "npm run prebuild:stylelint",
       "npm run postbuild",
       "git add"
-    ],
-    "*.js": [
-      "eslint '.storybook/**/*.js' 'story/**/*.js'"
     ]
   },
   "prettier": {
@@ -173,7 +170,7 @@
       "scss/at-rule-no-unknown": true
     },
     "files": [
-      "css/**/*.css"
+      "./css/**/*.css"
     ],
     "ignoreFiles": [
       "docs/*"
