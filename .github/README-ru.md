@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://nostalgic-css.github.io/NES.css/" target="_blank"><img src="https://user-images.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png" alt="NES.css: NES-style  CSS framework" style="max-width: 100%;" width="600" height="315"></a>
 
-  <a href="README.md">English</a> / <a href=".github/README-jp.md">日本語</a> / <a href="README-zh-CN.md">简体中文</a> / <a href=".github/README-pt-BR.md">Português</a>
+  <a href="/README.md">English</a> / <a href="README-jp.md">日本語</a> / <a href="README-zh-CN.md">简体中文</a> / <a href="README-pt-BR.md">Português</a>
 </div>
 
 NES.css - это CSS фреймворк в стиле **NES(8bit)**
@@ -26,13 +26,39 @@ yarn add nes.css
 * `sass` - Путь до главного Sass файла
 * `style` - Путь до неминифицированного CSS
 
+##### AltCSS(sass, scss...)
+
+```scss
+// style.scss
+@import "./node_modules/nes.css/css/nes.css"
+```
+
+##### JavaScript
+
+```js
+// script.js
+import "nes.css/css/nes.min.css";
+```
+Вам необходимо установить css-загрузчик.
+
+##### HTML
+```html
+<!-- index.html -->
+<html>
+  <head>
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+  </head>
+  <body></body>
+</html>
+```
+
 #### Через CDN
 
 Использования через тэг `<link />`:
 
 ```html
 <!-- Миницифированные -->
-<link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
+<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
 <!-- Последние -->
 <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
 <!-- Только основные стили -->
@@ -50,6 +76,7 @@ NES.css не предоставляет никаких шрифтов, но мы
 | Японский     | [美咲フォント](http://littlelimit.net/misaki.htm)                  |
 | Японский     | [Nu もち](http://kokagem.sakura.ne.jp/font/mochi/)                 |
 | Корейский    | [둥근모꼴](http://cactus.tistory.com/193)                              |
+| китайский    | [Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)      |
 
 ## Использование
 
@@ -99,7 +126,7 @@ Código y documentación copyright 2018 [B.C.Rikko](https://github.com/BcRikko).
 
 [commitizen]: http://commitizen.github.io/cz-cli/
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-[contributing-document]: ./CONTRIBUTING-es.md
+[contributing-document]: ./CONTRUBUTING-ru.md
 [gitter]: https://gitter.im/nostalgic-css/Lobby
 [gitter-badge]: https://img.shields.io/gitter/room/nostalgic-css/Lobby.svg
 [google-fonts-guide]: https://developers.google.com/fonts/docs/getting_started

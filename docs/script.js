@@ -261,7 +261,27 @@ const sampleCollection = [
     <li>Thou hast had a good afternoon</li>
     <li>Good night.</li>
   </ul>
-</div>`,
+</div>
+
+<section class="nes-container is-dark">
+  <div class="lists">
+    <ul class="nes-list is-disc is-dark">
+      <li>Good morning.</li>
+      <li>Thou hast had a good night's sleep, I hope.</li>
+      <li>Thou hast had a good afternoon</li>
+      <li>Good night.</li>
+    </ul>
+  </div>
+
+  <div class="lists">
+    <ul class="nes-list is-circle is-dark">
+      <li>Good morning.</li>
+      <li>Thou hast had a good night's sleep, I hope.</li>
+      <li>Thou hast had a good afternoon</li>
+      <li>Good night.</li>
+    </ul>
+  </div>
+</section>`,
   },
   {
     title: 'tables',
@@ -326,20 +346,20 @@ const sampleCollection = [
   },
   {
     title: 'avatars',
-    description: 'It is recommended to "image-rendering: pixelated".',
+    description: 'It is recommended to use the class "is-pixelated".',
     showCode: false,
-    code: `<img class="nes-avatar" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
+    code: `<img class="nes-avatar is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
 
-<img class="nes-avatar is-small" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
-<img class="nes-avatar is-medium" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
-<img class="nes-avatar is-large" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
+<img class="nes-avatar is-small is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
+<img class="nes-avatar is-medium is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
+<img class="nes-avatar is-large is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
 
 
-<img class="nes-avatar is-rounded" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
+<img class="nes-avatar is-rounded is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
 
-<img class="nes-avatar is-rounded is-small" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
-<img class="nes-avatar is-rounded is-medium" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">
-<img class="nes-avatar is-rounded is-large" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15" style="image-rendering: pixelated;">`,
+<img class="nes-avatar is-rounded is-small is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
+<img class="nes-avatar is-rounded is-medium is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">
+<img class="nes-avatar is-rounded is-large is-pixelated" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15">`,
   },
   {
     title: 'balloons',
@@ -416,12 +436,12 @@ const sampleCollection = [
   <span class="is-error">framework!</span>
 </a>
 
-<a href="#" class="nes-badge is-splited">
+<a href="#" class="nes-badge is-split">
   <span class="is-dark">npm</span>
   <span class="is-primary">1.1.0</span>
 </a>
 
-<a href="#" class="nes-badge is-splited">
+<a href="#" class="nes-badge is-split">
   <span class="is-dark">test</span>
   <span class="is-success">100%</span>
 </a>
@@ -440,7 +460,7 @@ const sampleCollection = [
     title: 'reaction-icons',
     showCode: false,
     description:
-      'If you wanto to change icon size, please use "is-small", "is-medium" and "is-large".',
+      'If you want to change icon size, please use "is-small", "is-medium" and "is-large".',
     code: `<section class="icon-list">
   <!-- heart -->
   <i class="nes-icon is-large heart"></i>
@@ -463,7 +483,7 @@ const sampleCollection = [
     title: 'sns-icons',
     showCode: false,
     description:
-      'If you wanto to change icon size, please use "is-small", "is-medium" and "is-large".',
+      'If you want to change icon size, please use "is-small", "is-medium" and "is-large".',
     code: `<section class="icon-list">
   <!-- twitter -->
   <i class="nes-icon twitter is-large"></i>
@@ -506,7 +526,7 @@ const sampleCollection = [
     title: 'other-icons',
     showCode: false,
     description:
-      'If you wanto to change icon size, please use "is-small", "is-medium" and "is-large".',
+      'If you want to change icon size, please use "is-small", "is-medium" and "is-large".',
     code: `<section class="icon-list">
   <!-- close -->
   <i class="nes-icon close is-large"></i>

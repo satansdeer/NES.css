@@ -16,3 +16,8 @@ favicon.ico
 index.html
 storybook-static
 style.css
+story
+stories
+
+# Develepment tools
+scripts
