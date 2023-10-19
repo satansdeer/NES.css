@@ -1,6 +1,7 @@
 {
   "name": "maksimivanov-nes.css",
   "description": "NES.css is NES-style CSS Framework.",
+  "version": "1.0.0",
   "scripts": {
     "watch": "npm run build:sass -- --watch",
     "// Build task": "",
